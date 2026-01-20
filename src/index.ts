@@ -44,7 +44,7 @@ export {
    XqlJson,
 };
 
-export const xv = {
+export const xt = {
    array: <T extends XqlInstanceType>(type: T, length?: number) => new XqlArray<T>(type, length),
    boolean: () => new XqlBoolean(),
    date: () => new XqlDate(),
